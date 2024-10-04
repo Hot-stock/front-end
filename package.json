@@ -6,7 +6,7 @@
 		"start:dev": "nuxt dev --dotenv .env.dev",
 		"start:staging": "nuxt dev --dotenv .env.staging",
 		"start:prod": "nuxt dev --dotenv .env.production",
-		"build:dev": "nuxt build --dotenv .env.local",
+		"build:dev": "nuxt build --dotenv .env.dev",
 		"build:staging": "nuxt build --dotenv .env.staging",
 		"build:prod": "nuxt build --dotenv .env.production",
 		"start": "node .output/server/index.mjs",
