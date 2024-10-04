@@ -1,0 +1,64 @@
+{
+	// 편집기 기본 설정
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"editor.inlineSuggest.enabled": true,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+
+	// 파일 관련 설정
+	"files.autoSave": "afterDelay",
+
+	// ESLint 설정
+	"eslint.validate": ["javascript", "typescript", "vue", "html"],
+	"eslint.format.enable": true,
+
+	// Prettier 설정
+	"prettier.requireConfig": true,
+	"prettier.configPath": ".prettierrc.cjs",
+	"prettier.useEditorConfig": false,
+
+	// Vue 설정
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// TypeScript 설정
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.tsdk": "node_modules/typescript/lib",
+
+	// Tailwind CSS 설정
+	"css.validate": false,
+	"tailwindCSS.includeLanguages": {
+		"vue": "html",
+		"vue-html": "html"
+	},
+	"tailwindCSS.experimental.classRegex": [
+		["ui:\\s*{([^}]*)}", "[\"'`]([^\"'`]*).*?[\"'`]"],
+		["class:\\s*[\"'`]([^\"'`]*).*?[\"'`]"]
+	],
+
+	// Volar 설정
+	"volar.autoCompleteRefs": true,
+	"volar.completion.preferredAttrNameCase": "kebab",
+	"volar.completion.preferredTagNameCase": "kebab",
+	"volar.takeOverMode.enabled": true,
+
+	// Nuxt 특화 설정
+	"files.associations": {
+		"*.css": "tailwindcss",
+		"*.scss": "tailwindcss",
+		"*.vue": "vue"
+	},
+	"search.exclude": {
+		"**/.nuxt": true,
+		"**/.output": true,
+		"**/dist": true
+	}
+}

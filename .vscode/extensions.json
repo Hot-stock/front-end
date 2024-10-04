@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"Vue.volar",
+		"Vue.vscode-typescript-vue-plugin",
+		"sdras.vue-vscode-snippets",
+		"matijao.vue-nuxt-snippets",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"bradlc.vscode-tailwindcss",
+		"ms-vscode.vscode-typescript-next"
+	]
+}

@@ -24,7 +24,7 @@ logs
 !.env.example
 
 ### VS Code ###
-.vscode/
+# .vscode/
 
 ### Log files ###
 npm-debug.log*
